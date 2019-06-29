@@ -1,11 +1,12 @@
 body{
-    background: rgb(70, 142, 236);
+    background: rgb(47, 121, 53);
     font: normal 15pt Arial;
 }
 header{
     color: white;
     text-align: center;
     font-style: italic;
+    font-family: 'draw', sans-serif; 
 }
 section{
     background: white;
@@ -19,26 +20,27 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+    font-family: 'draw', sans-serif; 
 }
 @font-face {
-    font-family: 'draw';
-    src: url(draw.otf);
-  }
-  #JV {
-      width: 700px; 
-      height: 450px; 
-      border: 5px outset; 
-      border-radius: 5px; 
-      position: relative; 
-      margin-left: auto; 
-      margin-right: auto;}
-  #tipo {
+  font-family: 'draw';
+  src: url(draw.otf);
+}
+#JV {
+  width: 700px; 
+  height: 450px; 
+  border: 5px outset; 
+  border-radius: 5px; 
+  position: relative; 
+  margin-left: auto; 
+  margin-right: auto;}
+#tipo {
       position: absolute; 
       left: 500px; 
       top: 5px; 
       font-family: 'draw', sans-serif; 
       font-size: 50pt; 
-      color: rgb(20, 143, 47);}
+      color: rgb(26, 126, 42);}
 
   #dvFrase {
       position: absolute; 
@@ -78,4 +80,5 @@ footer{
     background: #306e45; 
     transform: scale(1.2);
     box-shadow: 2px 2px 5px rgba(0,0,0,.6); 
-    color: white;}
+    color: white;
+}
