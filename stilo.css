@@ -12,7 +12,7 @@ section{
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 705px;
+    width: 605px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
@@ -27,7 +27,7 @@ footer{
   src: url(draw.otf);
 }
 #JV {
-  width: 700px; 
+  width: 600px; 
   height: 450px; 
   border: 5px outset; 
   border-radius: 5px; 
@@ -36,17 +36,20 @@ footer{
   margin-right: auto;}
 #tipo {
       position: absolute; 
-      left: 500px; 
+      left: 450px; 
       top: 5px; 
       font-family: 'draw', sans-serif; 
       font-size: 50pt; 
-      color: rgb(26, 126, 42);}
+      color: rgb(26, 126, 42);
+      
+}
 
   #dvFrase {
       position: absolute; 
-      top: 400px; 
-      left: 210px;}
+      top: 300px; 
+      left: 10px;}
   .frase {
+   
       width: 55px;
       font-size: 50pt; 
       font-family: 'draw', sans-serif; 
@@ -58,13 +61,14 @@ footer{
     font-size: 28px;
     display: inline-block;}
   #erros {
-    position: relative;}
+    position: absolute;
+    }
   #errosCont {
     color: #359422;}
   #dvErro {
     position: absolute; 
-    top: 250px; 
-    left: 670px;}
+    top: 150px; 
+    left: 470px;}
   #dvErro input {
     width: 50px; 
     border-radius: 10px; 
