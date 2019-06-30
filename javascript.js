@@ -4,10 +4,11 @@
 var animais = ['Baleia','Cachorro','Cavalo','Cobra','Crocodilo','Elefante','Galinha','Gambá','Gato','Golfinho','Leão','Girafa','Lobo','Macaco','Ovelha','Papagaio','Polvo','Pombo','Rinoceronte','Tartaruga','Touro','Urso','Vaca'];
 var paises = ['França','Alemanha','Suíça','Suécia','Índia','Afeganistão','Japão','Austrália','Argentina'];
 var frutas = ['Abacate','Abacaxi','açaí','Acerola','Amora','Banana','Carambola','Cereja','Goiaba','Jabuticaba','Jaca','Laranja'];
+var profissao = ['Médico','Dentista','Mecânico','Soldador','Pedreiro','Advogado','Professor','Programador','Vaqueiro','Padeiro','Pintor','Eletricista'];
 var opcao = [];
 var dv;
 var sort = [];
-var tipo = ['Animal','País','Fruta'];
+var tipo = ['Animal','País','Fruta','Profissão'];
 //situações do jogador
 var imgAtual;
 var acertou = '';
@@ -32,6 +33,7 @@ var tmp;
 opcao.push(animais);
 opcao.push(paises);
 opcao.push(frutas);
+opcao.push(profissao);
 sort[0] = parseInt((Math.random()*opcao.length));
 sort[1] = parseInt(Math.random()*opcao[sort[0]].length);
 
